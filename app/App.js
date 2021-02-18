@@ -2,11 +2,14 @@ import React from 'react'
 import 'normalize.css'
 import './App.scss'
 
+import reactLogo from './assets/images/react-transparent.png';
+
+
 const App = () => {
     <div>
         <h1>Hello React</h1>
         <br/>
-        <h2>insert image here</h2>
+        <img height="150" src={reactLogo} />
     </div>
 }
 
