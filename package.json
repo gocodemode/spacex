@@ -10,6 +10,8 @@
     ]
   },
   "scripts": {
+    "lint": "eslint app --ext .js,.jsx",
+    "lint:fix": "eslint --fix app --ext .js,.jsx",
     "test": "echo \"No test script\"",
     "build": "webpack",
     "start": "webpack serve"
@@ -29,8 +31,12 @@
     "@babel/core": "^7.12.17",
     "@babel/preset-env": "^7.12.17",
     "@babel/preset-react": "^7.12.13",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.2",
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-watch": "^7.0.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.0.0-alpha.17",
     "node-sass": "^5.0.0",
