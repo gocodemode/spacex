@@ -1,6 +1,7 @@
 {
     "plugins": [
-      "react"
+      "react",
+      "react-hooks"
     ],
     "parser": "babel-eslint",
     "parserOptions": {
@@ -17,6 +18,8 @@
     },
     "extends": [],
     "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
       "semi": ["off", "always"],
       "quotes": ["error", "single", { "allowTemplateLiterals": true }]
     },
